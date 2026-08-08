@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>کارتێکی تایبەت بۆ خێزانەکەم</title>
+    <style>
+        body {
+            background: #1a1a2e;
+            font-family: 'Tahoma', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 30px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            width: 300px;
+        }
+        h1 { color: #fff; font-size: 20px; margin-bottom: 20px; }
+        ul { list-style: none; padding: 0; }
+        li {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 15px 0;
+            opacity: 0;
+            animation: slideDown 0.8s forwards;
+        }
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        /* ڕەنگی جیاواز بۆ هەر ناوێک */
+        li:nth-child(1) { color: #ff758c; animation-delay: 0.2s; }
+        li:nth-child(2) { color: #ffeb3b; animation-delay: 0.5s; }
+        li:nth-child(3) { color: #8bc34a; animation-delay: 0.8s; }
+        li:nth-child(4) { color: #03a9f4; animation-delay: 1.1s; }
+        li:nth-child(5) { color: #9c27b0; animation-delay: 1.4s; }
+        li:nth-child(6) { color: #ff9800; animation-delay: 1.7s; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>✨ خێزانی ئازیزم ✨</h1>
+        <ul>
+            <li>دایە گیان</li>
+            <li>باوە گیان</li>
+            <li>خاڵە دابان</li>
+            <li>پورە ئاڤان</li>
+            <li>خاڵە دییار</li>
+            <li>دادە لاڤە</li>
+        </ul>
+    </div>
+
+</body>
+</html>
