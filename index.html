@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>خێزانی ئازیزم</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #090912, #1f102a);
+            font-family: 'Tahoma', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow-x: hidden;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 600px;
+        }
+        h1 { 
+            color: #fff; 
+            margin-bottom: 30px; 
+            font-size: 30px;
+            text-shadow: 0 0 15px rgba(255,255,255,0.4);
+        }
+        .member {
+            margin: 35px 0;
+            animation: upDownMotion 3s ease-in-out infinite, colorToDarkRed 4s infinite alternate;
+        }
+        h2 {
+            font-size: 28px;
+            margin: 0 0 8px 0;
+        }
+        p {
+            font-size: 16px;
+            color: #ccc;
+            margin: 4px 0;
+            line-height: 1.5;
+        }
+
+        /* جوڵەی سەرەوخوار و گۆڕینی ڕەنگ لە سپییەوە بۆ سووری تۆخ */
+        @keyframes upDownMotion {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+        }
+
+        @keyframes colorToDarkRed {
+            0% { color: #ffffff; text-shadow: 0 0 10px rgba(255,255,255,0.7); }
+            100% { color: #8b0000; text-shadow: 0 0 15px rgba(139,0,0,0.8); }
+        }
+
+        .member:nth-child(2) { animation-delay: 0.2s; }
+        .member:nth-child(3) { animation-delay: 0.4s; }
+        .member:nth-child(4) { animation-delay: 0.6s; }
+        .member:nth-child(5) { animation-delay: 0.8s; }
+        .member:nth-child(6) { animation-delay: 1.0s; }
+        .member:nth-child(7) { animation-delay: 1.2s; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>✨ خێزانی خۆشەویست و ئازیزم ✨</h1>
+
+        <div class="member">
+            <h2>❤️ دایە گیان</h2>
+            <p>خۆشەویستترین کەسی ژیانمی و چراکەی ماڵەوە.</p>
+            <p>هەمیشە قوربانی ماندووبوون و دلۆفانیت بین.</p>
+            <p>تەمەن درێژ و تەندروست بیت بۆمان.</p>
+        </div>
+
+        <div class="member">
+            <h2>👑 باوە گیان</h2>
+            <p>پشتیوان و گەورەی خێزانەکەی.</p>
+            <p>شانازی بە بوونتەوە دەکەین لە هەموو کاتێکدا.</p>
+            <p>خوای گەورە ساڵانێکی زۆر ביپارێزێت.</p>
+        </div>
+
+        <div class="member">
+            <h2>⭐ خاڵە دابان</h2>
+            <p>پیاوی گەورە و بەڕێز و دەشکاو.</p>
+            <p>هەمیشە پشتیوان و هاوکارێکی نزیک.</p>
+            <p>سەرکەوتن و خۆشگوزەرانی بۆ تۆ دەخوازم.</p>
+        </div>
+
+        <div class="member">
+            <h2>🌹 پورە ئاڤان</h2>
+            <p>سۆز و میهرەبانی لە دڵتا کۆبووەوە.</p>
+            <p>هەمیشە بە زەردەخەنە و دڵخۆشی دەبینرێیت.</p>
+            <p>تەمەن درێژ و سەربەرز بیت.</p>
+        </div>
+
+        <div class="member">
+            <h2>🌟 خاڵە دییار</h2>
+            <p>کەسایەتی ئازیز و خۆشەویستی خێزان.</p>
+            <p>هەمیشە وزەی ئەرێنی و جوان دەبەخشیت.</p>
+            <p>هیوای سەرکەوتنی بێپایانت بۆ دەخوازم.</p>
+        </div>
+
+        <div class="member">
+            <h2>🌸 دادە لاڤە</h2>
+            <p>گوڵە باخ و شیرینی ناو ماڵ.</p>
+            <p>هەمیشەخەندە و شادی دەردەبڕیتت.</p>
+            <p>سەرکەوتوو و سەربەرز بیت لە هەموو کارێکت.</p>
+        </div>
+    </div>
+
+    <!-- موزیکی ئارام -->
+    <audio autoplay loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
+بەرهەم هێنراوە لەلایەن ئاسان
